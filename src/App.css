@@ -1,0 +1,100 @@
+body{
+  margin: 0;
+  padding: 100px 0 0;
+
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+  box-shadow: 0 1px 3px -2px black;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+  z-index: 1000; /* S
+    /* min-height: 100vh; */
+    /* min-height: 100dvh; */
+}
+
+.nav-log p{
+    color: #171717;
+    font-size: 18px;
+    font-weight: 600;
+    /* text-decoration: none; */
+    /* text-decoration-line: none; */
+}
+.nav-cart button{
+    background: #f3f3f3;
+    width: 100px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 50px;
+    color: #515151;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-cart {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-icon-link {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .nav-cart-count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 12px;
+    margin-left: 5px; /* Adjust the margin to your preference */
+  }
+
+  /* MovieList.css */
+
+.MovieList {
+    max-width: 800px;
+    margin: 0 auto;
+    /* padding: 20px; */
+  }
+  
+  .MovieList h2 {
+    color: #333;
+  }
+  
+  .MovieList ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .MovieList li {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .MovieList h3 {
+    margin-top: 0;
+  }
+  
+  .MovieList p {
+    margin: 10px 0;
+  }
+  
+  .MovieList img {
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+  }
+  
