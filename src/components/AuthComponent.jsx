@@ -1,7 +1,5 @@
 import React, { useState, useContext } from 'react';
 import UserContext from '../context/UserContext';
-// import AdminNavbar from './AdminNavbar';
-// import Navbar from './Navbar';
 import { useNavigate } from 'react-router-dom';
 
 const AuthComponent = () => {
@@ -68,7 +66,7 @@ const AuthComponent = () => {
   };
 
   return (
-    <div>
+    <div className="auth-container">
       
       <h2>{isSignup ? 'Sign Up' : 'Login'}</h2>
       <form onSubmit={handleSubmit}>
